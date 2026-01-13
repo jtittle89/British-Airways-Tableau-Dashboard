@@ -1,23 +1,78 @@
 # British-Airways-Tableau-Dashboard
 
-This Tableau dashboard analyzes 1,324 customer reviews for the airline British Airways from March 2016 through October 2023.
+This Tableau dashboard analyzes 1,324 customer reviews for British Airways collected between March 2016 and October 2023.
 
-Business Purpose:
-  > To analyze customer review data in order to identify British Airways’ key strengths and areas for improvement.
-  > Identify underperforming service categories that negatively impact customer satisfaction.
-  > Evaluate differences in customer experience by aircraft type and geography.
+The goal of this project is to uncover actionable insights from customer feedback to evaluate service performance across multiple dimensions, including service quality, aircraft type, and geographic trends.
 
-Dashboard:
-KPI cards summarizing the average customer scores for: Overall Rating, Cabin Staff Service. Seat Comfort, Food & Beverages, Ground Service, Entertainment, and Value for the Money.
-Line chart tracking the change in review score ratings by month.
-Map displaying the countries that use British Airways and uses a color scale to indicate higher ratings the darker the color for the country.
-Bar chart ranking the highest to lowest average rating based on aircraft used. Secondary bar chart indicates how many reviews were received for each aircraft.
-Filters added for deeper insights and drill down analysis for rating metrics, month, traveller type, seat type, aircraft, and continent.
+📊 Business Purpose
 
-Key Insights:
-  > Based on the customer reviews, foad & beverages and entertainment are the lowest rated. To improve customer satisfaction both areas will need to be improved. Consideration to provide more options for both.
-  > While the Boeing 747-400 has the highest average score, it only counts for a small percentage of the overall reviews.
-  > The majority of reviews are for the A320 aircraft and the grouping of other smaller aircrafts into a 'Various' group.
-  > Of the 1,324 reviews, 849 are from the UK. Focusing on correcting or adjusting low rated areas in the UK will likely increase the overall ratings as a whole 
+    Analyze customer review data to identify British Airways’ strengths and areas for improvement
+    
+    Identify underperforming service categories that negatively impact customer satisfaction
+    
+    Evaluate differences in customer experience by aircraft type and geographic region
 
-<img width="1195" height="742" alt="image" src="https://github.com/user-attachments/assets/88cdb65e-4342-449c-92cb-1a6c4b8c796d" />
+📈 Dashboard Overview
+
+The Tableau dashboard includes the following visual components:
+
+    KPI Cards
+    
+        Average customer scores for:
+    
+        Overall Rating
+        
+        Cabin Staff Service
+        
+        Seat Comfort
+        
+        Food & Beverages
+        
+        Ground Service
+        
+        Entertainment
+        
+        Value for Money
+    
+    Trend Analysis:
+    
+        Line chart tracking changes in review scores over time by month
+    
+    Geographic Analysis: 
+    
+        Interactive map showing countries where reviews originate
+    
+        Color scale highlights higher-rated countries with darker shading
+    
+    Aircraft Performance:
+    
+        Bar chart ranking aircraft from highest to lowest average rating
+    
+        Secondary bar chart displaying the total number of reviews per aircraft
+    
+    Filters & Interactivity
+    
+        Rating metric
+        
+        Month
+        
+        Traveler type
+        
+        Seat type
+        
+        Aircraft
+        
+        Continent
+
+🔍 Key Insights
+
+    Food & Beverages and Entertainment receive the lowest average ratings, indicating clear opportunities to improve customer satisfaction through expanded options and service enhancements.
+    
+    The Boeing 747-400 has the highest average rating; however, it represents only a small portion of total reviews.
+    
+    The majority of reviews are associated with the A320 aircraft, along with a grouped category labeled “Various” for smaller aircraft types.
+    
+    UK-based reviews account for 849 of the 1,324 total reviews (~64%), suggesting that improving lower-rated service areas in the UK would have the greatest overall impact on customer satisfaction.
+
+🖼️ Dashboard Preview
+<img width="1195" height="742" alt="British Airways Tableau Dashboard" src="https://github.com/user-attachments/assets/88cdb65e-4342-449c-92cb-1a6c4b8c796d" />
